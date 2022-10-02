@@ -1,0 +1,149 @@
+span,p{
+    font-family: 'Verdana', sans-serif;
+}
+body,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* Header-top CSS Start */
+.header-top{
+    background: rgba(158,158,158,.2);
+}
+.top-menu ul li{
+    display: inline-block;
+}
+.top-menu ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+}
+.top-menu ul li:nth-child(1) a{
+    color: #f85606;
+}
+.top-menu ul li a:hover{
+    color: #f85606;
+    text-decoration: underline;
+}
+/* Header CSS Start  */
+header .logo img{
+    width: 135px;
+}
+header .form input {
+    width: 85%;
+    padding: 10px 19px;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+header .form input:focus{
+    outline: none;
+}
+header .form span {
+    display: inline-block;
+    background: #f85606;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    transform: translate(-48px, 0px);
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #fff;
+}
+header .cart {
+    font-size: 25px;
+    transform: translate(-85px, 2px);
+    cursor: pointer;
+}
+header .end-logo img{
+    width: 188px;
+}
+/* DropDown CSS Start */
+.dropdown ul li{
+    display: inline-block;
+    position: relative;
+}
+.dropdown ul li a{
+    display: inline-block;
+    color: #424242;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.dropdown ul li a:hover{
+    font-weight: 600;
+}
+.dropdown ul li ul{
+    position: absolute;
+    top: 115%;
+    width: 230px;
+    left:-24%;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+.dropdown ul li ul li{
+    display: block;
+}
+.dropdown ul li ul li a {
+    display: block;
+    margin: 0;
+    padding: 0 20px;
+}
+.dropdown ul li ul li a:hover{
+    background: #7575758f;
+    color: #1a9cb7;
+}
+.dropdown ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.se img{
+    margin-bottom: 1.5rem;
+}
+.img-video{
+    position: relative;
+}
+.video {
+    position: absolute;
+    top: 12px;
+    left: 427px;
+}
+.w-100 {
+    width: 100%!important;
+    height: 316px;
+}
+.text h4{
+    color: rgb(243,121,52);
+}
+.text-item p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.text-item h6 {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(243,121,52);
+}
+footer img {
+    width: 1200%;
+}
+
